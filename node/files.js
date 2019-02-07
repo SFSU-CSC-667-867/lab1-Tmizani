@@ -8,3 +8,4 @@ fs.readFile(path.join(__dirname, 'hello.txt'), { encoding: 'utf8' }, (err, txt) 
 });
 // This triggers directly after asking to read the file
 console.log('Just asked for file');
+console.log(os.cpus())
